@@ -20,7 +20,7 @@ variable "ec2_keypair" {
 
 variable "ec2_count" {
   type = number
-  default = "4"
+  default = "3"
 }
 
 variable "environment" {
@@ -38,7 +38,7 @@ variable "subnets" {
 }
 
 variable "inst" {
-  default = ["i-0f99ab39f19e19a9b", "i-04b297623f3eed0a8", "i-06dcbf9e354d11eff", "i-0a325ba5610164867" ]
+  default = ["i-038be58891a6ed6da", "i-012d6ede10e2dd4cd" ]
 }
 
 
